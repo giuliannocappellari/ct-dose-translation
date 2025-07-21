@@ -1,0 +1,15 @@
+[project]
+name = "ct-translation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "diffusers>=0.34.0",
+    "kornia>=0.8.1",
+    "lpips>=0.1.4",
+    "opencv-python>=4.12.0.88",
+    "pydicom>=3.0.1",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+]
